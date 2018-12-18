@@ -21,17 +21,17 @@ we wrote:
 document.querySelector();
 ```
 
-The _object_ assigned to the `document` variable provides a method called
+The _[object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)_ assigned to the `document` variable provides a method called
 `querySelector` that looks through all of the data it was initialized with
-for HTML elements that "match" the _argument_ that the method takes.
+for HTML elements that "match" the _[argument](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments)_ that the method takes.
 
-_Objects_ are helpers that manage _state_ and associatqed _behavior_ as one
+_[Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)_ are helpers that manage _state_ and associated _behavior_ as one
 thing. _Objects_ are usually "brought into existence" with some initial data
-or _state_. Programmers call that _initializing_. Objects usually furnish
+or _state_. Programmers call that _[initializing](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer)_. Objects usually furnish
 _methods_ which allow programmers to update, search, delete, etc. the data
 the objects were initialized with.
 
-When we _called_ `document.querySelector()`, we provided it an _argument_, a
+When we _called_ `document.querySelector()`, we provided it an _[argument](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments)_, a
 bit of text, a `String` of text that goes inside the `()`.
 
 In its argument, `document.querySelector()` expects us to provide a CSS
@@ -40,11 +40,11 @@ identifier that will help us find the node we want.
 If the `document` object finds an HTMLElement that it knows about, it _returns_
 it. Otherwise it returns `null`.
 
-(tools console screenshot of found / not found)
+<img src="https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-js-fundamentals-calling-methods/console.png">
 
 The thing `document.querySelector()` returns is _also_ an object. It, too, has
 both information and methods, state and behavior, properties and methods (they
-all mean the same thing). This HTMLElement _instance_ provides methods like `remove()`.
+all mean the same thing). This HTMLElement _[instance](https://developer.mozilla.org/en-US/docs/Glossary/Instance)_ provides methods like `remove()`.
 
 ## Conclusion
 
