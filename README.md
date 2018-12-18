@@ -7,8 +7,8 @@
 ## Introduction
 
 In the previous lesson, we did a very important thing in the JavaScript
-language, we _called a method_. We glossed some of the detail about what
-was happening at the technical level here. Let's put some technical
+language, we _called a method_. We glossed over some of the detail about 
+what was happening at the technical level here. Let's put some new
 vocabulary around what we did.
 
 ## What are JavaScript Methods
