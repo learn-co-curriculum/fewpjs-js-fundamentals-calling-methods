@@ -2,7 +2,7 @@
 
 ## Learning Goals
 
-1. What are JavaScript methods
+* Define a JavaScript method
 
 ## Introduction
 
@@ -11,7 +11,7 @@ language, we _called a method_. We glossed over some of the detail about
 what was happening at the technical level here. Let's put some new
 vocabulary around what we did.
 
-## What are JavaScript Methods
+## Define a JavaScript Method
 
 We _called_ the _method_ `querySelector` *on* the _object_ held in the
 _document_ variable. _Calling_ is the same as _running_. We did that when
