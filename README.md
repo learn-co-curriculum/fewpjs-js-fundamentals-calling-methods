@@ -37,14 +37,14 @@ bit of text, a `String` of text that goes inside the `()`.
 In its argument, `document.querySelector()` expects us to provide a CSS
 identifier that will help us find the node we want.
 
-If the `document` object finds an HTMLElement that it knows about, it _returns_
+If the `document` object finds an `HTMLElement` that it knows about, it _returns_
 it. Otherwise it returns `null`.
 
 <img src="https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-js-fundamentals-calling-methods/console.png">
 
 The thing `document.querySelector()` returns is _also_ an object. It, too, has
 both information and methods, state and behavior, properties and methods (they
-all mean the same thing). This HTMLElement _[instance](https://developer.mozilla.org/en-US/docs/Glossary/Instance)_ provides methods like `remove()`.
+all mean the same thing). This `HTMLElement` _[instance](https://developer.mozilla.org/en-US/docs/Glossary/Instance)_ provides methods like `remove()`.
 
 ## Conclusion
 
