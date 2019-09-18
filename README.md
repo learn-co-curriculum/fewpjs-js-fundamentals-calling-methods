@@ -6,45 +6,39 @@
 
 ## Introduction
 
-In the previous lesson, we did a very important thing in the JavaScript
+In the previous lessons, we did a very important thing in the JavaScript
 language, we _called a method_. We glossed over some of the detail about 
-what was happening at the technical level here. Let's put some new
+what was happening at the technical level at that time. Let's put some new
 vocabulary around what we did.
 
 ## Define a JavaScript Method
 
-We _called_ the _method_ `querySelector` *on* the _object_ held in the
-_document_ variable. _Calling_ is the same as _running_. We did that when
-we wrote:
+Let's consider the `document.querySelector` method.
+
+This code _calls_ the _method_ `querySelector`. The
+method is said to be "defined in" the object `document`.
+
+_Calling_ is the same as _running_. We do that when
+we write:
 
 ```js
-document.querySelector();
+document.querySelector(); // Notice the addition of ()
 ```
 
-The _[object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)_ assigned to the `document` variable provides a method called
-`querySelector` that looks through all of the data it was initialized with
-for HTML elements that "match" the _[argument](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments)_ that the method takes.
-
-_[Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)_ are helpers that manage _state_ and associated _behavior_ as one
-thing. _Objects_ are usually "brought into existence" with some initial data
-or _state_. Programmers call that _[initializing](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer)_. Objects usually furnish
-_methods_ which allow programmers to update, search, delete, etc. the data
-the objects were initialized with.
-
-When we _called_ `document.querySelector()`, we provided it an _[argument](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments)_, a
+When we _call_ `document.querySelector()`, we provide it an _[argument](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments)_, a
 bit of text, a `String` of text that goes inside the `()`.
 
-In its argument, `document.querySelector()` expects us to provide a CSS
-identifier that will help us find the node we want.
+The method `document.querySelector()` expects us to provide a CSS
+identifier that will help us find the node we want as an _argument_.
 
-If the `document` object finds an `HTMLElement` that it knows about, it _returns_
-it. Otherwise it returns `null`.
+If the `document` object finds an `HTMLElement` in its representation of the page, it _returns_
+it. Otherwise the method returns `null`.
 
 <img src="https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-js-fundamentals-calling-methods/console.png">
 
 The thing `document.querySelector()` returns is _also_ an object. It, too, has
 both information and methods, state and behavior, properties and methods (they
-all mean the same thing). This `HTMLElement` _[instance](https://developer.mozilla.org/en-US/docs/Glossary/Instance)_ provides methods like `remove()`.
+all mean the same thing). This `HTMLElement` _[instance](https://developer.mozilla.org/en-US/docs/Glossary/Instance)_ has methods like `remove()`.
 
 ## Conclusion
 
