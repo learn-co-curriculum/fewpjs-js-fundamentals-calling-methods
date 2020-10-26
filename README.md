@@ -34,7 +34,7 @@ identifier that will help us find the node we want as an _argument_.
 If the `document` object finds an `HTMLElement` in its representation of the page, it _returns_
 it. Otherwise the method returns `null`.
 
-<img src="https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-js-fundamentals-calling-methods/console.png">
+![](https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-js-fundamentals-calling-methods/console.png)
 
 The thing `document.querySelector()` returns is _also_ an object. It, too, has
 both information and methods, state and behavior, properties and methods (they
